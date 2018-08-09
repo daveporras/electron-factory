@@ -1,0 +1,26 @@
+{
+  "name": "electron-factory",
+  "version": "1.0.0",
+  "description": "A minimal factory to build electron apps easily.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/daveporras/electron-factory.git",
+  "keywords": [
+    "Electron",
+    "factory",
+    "build",
+    "apps",
+    "easily"
+  ],
+  "author": "David Porras",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "electron-builder": "^20.27.1",
+    "electron-toolkit": "^1.0.24"
+  }
+}
